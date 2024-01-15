@@ -4,6 +4,7 @@ import { BulletList } from "react-content-loader"
 export const MainLoader = props => {
   return (
     <BulletList 
+      className="mx-auto"
       speed={2}
       width={1000}
       height={350}
